@@ -14,7 +14,7 @@ public class SignIn {
 	static Logger log = Logger.getLogger(SignIn.class.getName());
 	
 	
-	By Signin = By.xpath(".//*[@id='header']/div[2]/div/div/nav/div[1]/a");
+	By Signin = By.xpath(".///*[@id='header']/div[2]/div/div/nav/div[1]/a");
 	By CreateAnAccountAdd = By.xpath(".//*[@id='email_create']");
 	By CreateAnAccountSubmitButton = By.xpath(".//*[@id='SubmitCreate']");
 	By AlreadyRegEmailAdd = By.xpath(".//*[@id='email']");
